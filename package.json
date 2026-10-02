@@ -1,0 +1,12 @@
+{
+  "name": "@novacode-ai/config",
+  "version": "1.0.0",
+  "description": "User configuration and API key manager for Nova Code",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": { "build": "tsc" },
+  "dependencies": {
+    "@novacode-ai/types": "workspace:*"
+  }
+}
